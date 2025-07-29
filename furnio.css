@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.nav1{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+     
+    
+   
+}
+
+#rating{
+  color: black;
+  font-size: 12px;
+  font-weight:700 ;
+ 
+}
+#brand-name{
+   font-size: 16px;
+   margin-top: 12px;
+  font-weight:700 ;
+  line-height: 1;
+  color: #282c3f;
+  margin-bottom: 6px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#item-name{
+  font-size: 14px;
+   margin-top: 12px;
+  font-weight:400 ;
+  line-height: 1;
+  color: #535766;
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  
+}
+.price{
+  font-size: 14px;
+  line-height: 15px;
+  color:#282c3f;
+  white-space: nowrap;
+ 
+
+ 
+}
+
+#currprice{
+ font-size: 14px;
+ font-weight:700 ;
+  color:#282c3f;
+}
+#origprice{
+  font-size: 12px;
+ font-weight:400 ;
+ text-decoration: line-through;
+ margin-left: 5px;
+ color: #7e818c;
+
+
+}
+#off{
+ font-size: 12px;
+ font-weight:400 ;
+ margin-left: 5px;
+ color: #ff905a;
+}
+
+.addBag{
+  background-color: lightgreen;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 1.1rem;
+  margin-top: 5px;
+  cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+h1{
+    font-size: 1.5rem;
+}
+#search-input{
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+    
+   
+}
+i{
+    font-size: 20px;
+}
+nav{
+    background-color: rgb(215, 189, 166);
+     position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+   
+   
+    
+}
+
+nav p{
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+nav p::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background: #ce2121;
+    position: absolute;
+    left:0;
+    bottom:0.3px;
+    transition: 0.5s;
+}
+nav  p:hover::after{
+    width: 100%;
+}
+img{
+    height: 800px;
+    width: 100%;
+
+}
+#inp{
+    display: flex;
+}
+
+.last1:hover{
+  transform: scale(1.1);
+}
+#footpart1:hover{
+ transform: scale(1.1); 
+}
+
+
+
+
+
+
+.slider {
+  width: 100%;       
+  height: 700px;       
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.slide-img {
+  display: flex;
+  width: 200%;
+ 
+animation: slide 30s infinite;
+   
+}
+
+.slides-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0%); }
+  50%  { transform: translateX(-50%); }
+  100% { transform: translateX(0%); }
+}
+
+
+.text-on-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+  font-family: cursive;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+
+#mather{
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+    background-color: rgb(221, 191, 191);
+    
+}
+#ansh{
+    margin-left: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+
+main{
+  background-color: rgb(218, 209, 201);
+}
+
+
+.main1{height: 400px;
+    background-color: rgb(218, 209, 201);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+   
+   
+    
+    
+}
+.box{height: 500px;
+    width: 300px;
+    padding: 15px 0px 15px;
+    margin-top: 15px;
+    margin-left: 10px;
+     
+     color: black;
+   
+    
+     
+    
+   
+   
+
+}
+
+.box-img{height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+       
+}
+.box-img:hover{border:1.8px solid rgb(137, 136, 128);}
+
+.main2{height: 400px;
+    background-color: rgb(218, 209, 201);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 60px;
+}
+.main3{height: 400px;
+    background-color: rgb(218, 209, 201);
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+     margin-top: 60px;
+}
+
+.main4{height: 500px;
+   
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+     margin-top: 60px;
+}
+
+
+.mailpart{
+  
+    background-color: rgb(178, 165, 165);
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+  
+  
+}
+#mail1{
+    margin-top: 50px;
+}
+#mail1 input{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    cursor:pointer;
+}
+
+#mail1 button{
+    height: 40px;
+    width: 75px;
+    border-radius: 13px;
+    border: none;
+    background-color:#2f3d39 ;
+    margin-left: 10px;
+    font-size: 1rem;
+    color: white;
+    cursor:pointer;
+}
+#mail1 p{
+    margin-top: 10px;
+}
+#mail1 h1{
+    font-size: 1.8rem;
+}
+
+
+
+
+footer{
+    background-color: #2f3d39;
+    height: 730px;
+    
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    color:white ;
+}
+
+#footpart1{
+    z-index: 10;
+  background-color: rgba(255, 255, 255, 0.2);
+ padding: 20px 40px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 5px black;
+  font-size: large;
+}
+.last{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.last1 p{
+    margin-top: 15px;
+}
+.lasr1{
+  cursor: pointer;
+}
+
+
+.iconimg{
+    display: flex;
+    justify-content: end;
+    margin-right: 70px;
+    margin-top: 40px;
+    gap: 40px;
+   
+}
+.iconimg a{
+    color: white;
+    font-size: 1.4rem;
+}
+i{
+     font-size: 1.4rem;
+
+}
+.land{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 30px;
+    gap:40px ;
+    color: white;
+}
+hr{
+    margin-top: 40px;
+}
+.antim{
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+    
+}
+
+.antim h1{
+    margin-bottom: 10px;
+}
+.antim p{
+   margin-bottom: 15px;
+}
+
+.antim button{
+     height: 40px;
+    width: 75px;
+    border-radius: 13px;
+    border: none;
+    background-color:rgb(225, 99, 40);
+    margin-left: 10px;
+    font-size: 1rem;
+    color: white;
+    cursor:pointer;
+}
+
+#bagCount{
+  background-color: #f16565;
+  white-space: nowrap;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 6px;
+  height: 18px;
+  position: relative;
+  border-radius: 50%;
+  font-size: 12px;
+  color: white;
+  left: 13px;
+  top: -44px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  #bagCount {
+    top: -5px;   
+    right: -5px;
+    font-size: 10px;
+    padding: 1px 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add this at the end of your CSS file */
+
+@media screen and (max-width: 1200px) {
+  .nav1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+  .main1, .main2, .main3, .main4 {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .box {
+    width: 45%;
+    margin: 10px;
+  }
+  .mailpart {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+  }
+  #mail1 {
+    margin-top: 20px;
+  }
+  footer {
+    height: auto;
+  }
+  .foot1, .last {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+  }
+  .iconimg, .land {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  .antim {
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #search-input {
+    width: 200px;
+  }
+  .box {
+    width: 80%;
+  }
+  .text-on-image {
+    font-size: 40px;
+    padding: 10px 20px;
+  }
+  .slider {
+    height: 400px;
+  }
+  img {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1, #mail1 h1, .antim h1 {
+    font-size: 1.2rem;
+  }
+  #search-input {
+    width: 150px;
+    font-size: 1rem;
+  }
+  .box {
+    width: 90%;
+  }
+  .nav1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .iconimg i, .land p {
+    font-size: 1rem;
+  }
+  .antim button {
+    width: 100px;
+  }
+  .box{
+    height: 430px;
+  }
+  #Sing{
+    margin-top: 10px;
+  }
+  .profile{
+    margin-right: 50px;
+
+  }
+  .wish{
+   
+    flex-direction: row;
+    margin-right: 30px;
+    
+  }
+  .bag{
+    margin-left: 30px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .nav1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  #search-input{
+     height: 40px;
+    width:100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: whitesmoke;
+
+  }
+
+  
+
+  .nav1 p, .profile, .wish, .bag, #inp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #search-input {
+    width: 90%;
+  }
+
+  nav{
+    position: relative;
+  }
+}
+
+
+
+#bagContainer {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 300px;
+  max-height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.bag-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bag-item img {
+  border-radius: 5px;
+}
+
+.bag-item button {
+  margin-left: auto;
+  padding: 5px 10px;
+  cursor: pointer;
+}
