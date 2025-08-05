@@ -418,7 +418,7 @@ hr{
     margin-top: 40px;
 }
 .antim{
-    color: white;
+    color:black;
     margin-top: 20px;
     margin-left: 80px;
     
@@ -433,7 +433,7 @@ hr{
 
 .antim button{
      height: 40px;
-    width: 75px;
+    width: 80px;
     border-radius: 13px;
     border: none;
     background-color:rgb(225, 99, 40);
