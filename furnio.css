@@ -291,7 +291,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 40px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 .main3{height: 400px;
     background-color: rgb(218, 209, 201);
@@ -299,7 +299,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 40px;
-     margin-top: 60px;
+     margin-top: 70px;
 }
 
 .main4{height: 500px;
