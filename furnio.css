@@ -13,6 +13,20 @@
    
 }
 
+.banerForm{
+  padding: 40px;
+  border-radius: 10px;
+}
+.regiBtn{
+  width: 100%;
+
+padding: 10px 0px;
+border: none;
+color: white;
+background:linear-gradient(to right,#0acefe,#2699fb);
+  
+}
+
 #rating{
   color: black;
   font-size: 12px;
